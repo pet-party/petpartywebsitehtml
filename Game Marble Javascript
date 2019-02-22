@@ -1,0 +1,43 @@
+/* this is a game where you pretend to be a bunny named Marble.
+the background is the kitchen floor and you use your mouse to control Marble while he's running around. You also have to eat some of the food (you can eat the food by going on top of the food). Then you have to get him into the cage.
+there's a catch.
+Marble travles in the oppsite direction as your mouse
+*/
+fill(3, 3, 3);
+
+draw = function() {
+    //we draw the background
+    background(255, 255, 255);
+    
+    //we draw the score
+        var m = millis();
+
+    text(m + " is current score!!!!!", 6, 23);
+    
+    // we draw Marble's cage
+    image(getImage("space/planet"), 241, -42);
+    text('CAGE!!!', 244, 15);
+    
+    // we draw Marble's food
+    noStroke();
+    image(getImage("avatars/leafers-seed"), 129, 294);
+    image(getImage("avatars/aqualine-seed"), -25, 110);
+    text('WATER!!!', 68, 155, 181, 125);
+    text("FOOD!!!", 225, 349, 181, 125);
+    
+    //we draw Marble
+    image(getImage("avatars/primosaur-sapling"), mouseY, mouseX, 50, 50);
+    fill(250, 250, 250);
+    ellipse(mouseY + 40, mouseX + 21, 22, 28);
+    //we type Marble
+    fill(3, 3, 3);
+    var f = createFont("fantasy");
+    textFont(f);
+    text('Marble!!!', mouseY+15, mouseX);
+};
+/*
+If you want to see more Pet Party!!! websites you can go to the links below
+Game Rosie: https://www.khanacademy.org/computer-programming/game-rosie/5292381673127936
+Pet Party!!!!!!!!!!!!!!!!!: https://www.khanacademy.org/computer-programming/the-awsome-pet-party-page/6466262152806400
+Pet Party 2!!!!!!!!!!!!!!!: https://sites.google.com/s/1yVTRTAFK8lLqlogeGX_f5rI3bLP9Xm_p/p/1qCmQBxzFlYxKgOhO4cr-0EcijX8SzGMw/edit?authuser=1
+*/
