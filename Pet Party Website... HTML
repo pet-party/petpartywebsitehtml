@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Awesome pet party page!!!!!!</title>
+        <style>
+            body {
+                background:black;
+                text-align:center;
+            }
+            h1 {
+                color:rgb(3, 255, 221);
+                font-style:italic;
+                font-family:serif;
+            }
+            a {
+                color:rgb(211,8,252);
+            }
+            .contents {
+                font-family:sans-serif;
+                color:rgb(211, 8, 252);
+            }
+            .marble {
+                font-family:fantasy;
+                color:rgb(5, 168, 255);
+            }
+            .rosie {
+                font-family:cursive;
+                color:rgb(8, 250, 89);
+            }
+            .daisy {
+                font-style:italic;
+                color:rgb(250, 42, 5);
+                font-family:sans-serif;
+            }
+            .pic {
+                height:122px;
+                border:10px ridge orange;
+            }
+            .member {
+                font-family:monospace;
+                color:rgb(222, 250, 8);
+            }
+            .updates {
+                font-family:serif;
+                color:rgb(255, 205, 5);
+            }
+        </style>
+    </head>
+    <body>
+        <h1><strong>The Awsome pet party page!!!!!!!!</strong></h1>
+        <h2 class='contents'>Contents</h2>
+        <p class='contents'> <a href='#marble'>Marble!!!</a><br>
+           <a href='#rosie'> Rosie!!!</a><br>
+           <a href='#daisy'> Daisy!!!</a><br>
+           <a href='#member'>Members/Sponsers</a><br>
+           <a href='#updates'>Updates</a><br>
+            <a href='#other-websites'>Other "Pet Party" Websites!!!</a><br>
+           </p>
+           
+           <h2 id='marble' class='marble'>Marble!!!</h2>
+           <a class='marble' href='https://lh3.googleusercontent.com/-rYIy39omUjI/W0_9BQErydI/AAAAAAAAA0c/QdpMGdXSXGkY-Wn4l6jnWXZDE6pO6v6PwCL0BGAYYCw/h1536/6de2bf79-6367-4aa1-ae4a-75e3325e296b'>Marble Picture (click here)</a>
+        <h6 class='marble'>Posted on: July 7, 2018</h6>
+        
+        <p class='marble'>Marble is Ariel's Bunny. He is very playful!!!! He likes to put his sleeping hut on top of his water bowl. He also likes to through his chew toy into his water bowl. He is a very playful and funny bunny!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+        <img src='https://upload.wikimedia.org/wikipedia/commons/6/61/Simple-ceramic-bowl.jpg' class='pic' alt='a water bowl on a wooden table'>
+        <h6 class='marble'>Picture source Wikipidia</h6>
+        
+        <h2 id='rosie' class='rosie'>Rosie!!!</h2>
+        <a class='rosie' href='https://lh3.googleusercontent.com/-7Vlt04dckpk/WwDwxA4eaTI/AAAAAAAAAqk/gIS5LGjdNKcyJclu8OF6xQfA2KxEUuvYwCL0BGAYYCw/h1152/3369416313407600288%253Faccount_id%253D4'>Rosie Picture (click here)</a>
+        <h6 class='rosie'>Posted on: July 7, 2018</h6>
+        
+        <p class='rosie'>Rosie is Elaine's pet hamster. She is very playful!!!! She likes to eat nuts. When she dosen't feel like eating but I offer her nuts she takes them in her cheekpouches and puts them in under her weel. She is a playful and funny hamster!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+        <img src='https://upload.wikimedia.org/wikipedia/commons/0/07/Whole_Walnut_Kernel.jpg' class='pic' alt='a piece of walnut on a reflecting background'>
+        <h5 class='rosie'>Walnut, AKA Rosie's favorite</h5>
+        <h6 class='rosie'>Picture source Wikipedia</h6>
+        
+         <h2 id='daisy' class='daisy'>Daisy</h2>
+         <h6 class='daisy'>Posted on 10/20/18</h6>
+        <p class='daisy'>Daisy is Audrey's pet bunny. She is very playful. Whenever she gets let out of her cage, she runs into Audrey's family's bushes. The bushes she favors the most are roses and lavenders. Daisy is very playful and difficult to catch!!!!!!!! </p>
+        <img src='https://upload.wikimedia.org/wikipedia/commons/6/60/Single_lavendar_flower02.jpg' class='pic' alt='some purple lavenders in a field'>
+        <h5 class='daisy'>Lavender, one of Daisy's favorite plants</h5>
+        <h6 class='daisy'>Picture source Wikipedia</h6>
+         <h2 id='member' class='member'>Members/Sponsers</h2>
+         <h6 class='member'>As of 10/10/18</h6>
+        <table class='member'>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Rep. of</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>---------</td>
+                <td>-------------</td>
+                <td>--------------</td>
+            </tr>
+            <tr>
+                <td>Elaine</td>
+                <td>Hamsters</td>
+                <td>Coder/Founder</td>
+            </tr>
+            <tr>
+                <td>Ariel</td>
+                <td>Bunnies and Dogs</td>
+                <td>Founder</td>
+            </tr>
+            <tr>
+                <td>Evelyn</td>
+                <td>Cats,Kittens</td>
+                <td>Member,no pet</td>
+            </tr>
+            <tr>
+                <td>Ilaria</td>
+                <td>Cats</td>
+                <td>Member,no pet</td>
+            </tr>
+            <tr>
+                <td>Audrey</td>
+                <td>Bunnies</td>
+                <td>Member</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3 id='updates' class='updates'>Updates</h3>
+    <ul class='updates'>
+        <li>Halloween is coming up! Rosie is going to be an ice cream scoop for pics and a  cat in a witch hat for trick or treating!! Marble isn't going to go trick or treating.
+        <img src='https://upload.wikimedia.org/wikipedia/commons/0/0d/Halloween_pumpkin_witch_hat_-_Evan_Swigart.jpg' class='pic'  alt='A pumpkin in a witch hat'>
+        <li>Marble got nutered! He hates his antibiotic medicins! Marble also hated his shot!</li>
+    </ul>
+         
+        <h3 class='contents' id='other-websites'>Other "Pet Party!!!!" Websites</h3>
+       <h4 class='contents'><a href="https://www.khanacademy.org/computer-programming/game-rosie/5292381673127936">Game Rosie
+       </a></h4>
+        <h4 class='contents'><a href="https://www.khanacademy.org/computer-programming/game-marble/5926769901469696">Game Marble</a></h4>
+        <h4 class='contents'><a href='https://sites.google.com/s/1yVTRTAFK8lLqlogeGX_f5rI3bLP9Xm_p/p/1JsUePiVoidfwXrAzoR-ThLg79Po8CktQ/edit?authuser=1'>Pet Party 2</a></h4>
+        <h4 class='contents'><a href='https://www.khanacademy.org/computer-programming/pet-party-products/6172976551723008'>Pet Party Merchendise</a></h4>
+
+    </body>
+</html>
