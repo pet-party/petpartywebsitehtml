@@ -1,0 +1,55 @@
+/*in this game you move your mouse around and pretend it's a hamster named rosie.
+the background is the white floor of her cage and you run rosie around it getting food, sleaping, running the weel, ect.*/
+
+draw = function() {
+    //we draw the background
+    background(255, 255, 255);
+    
+    // we draw Rosie's House
+    stroke(5, 5, 5);
+    fill(250, 5, 250);
+    rect(292, 58, 105, 98);
+    triangle(348, 0, 294, 58, 400, 58);
+    fill(250, 110, 250);
+    rect(303, 70, 86, 60);
+    fill(8, 8, 8);
+    textSize(18);
+    text('HOUSE!!!', 203, 72);
+    
+    //we draw Rosie's food
+    image(getImage("avatars/leafers-seed"), -22, -21);
+    image(getImage("avatars/leafers-seed"), 302, 296);
+    image(getImage("avatars/leafers-seed"), -22, 295);
+    image(getImage("avatars/aqualine-seed"), -27, 116);
+    fill(3, 3, 3);
+    textSize(18);
+    text('FOOD', 285, 334);
+    text('FOOD', 71, 29);
+    text('FOOD', 66, 335);
+    text('WATER', 66, 166);
+    
+    //we draw her weel
+    fill(0, 55, 255);
+    ellipse(200, 200, 164, 164);
+    noStroke();
+    fill(255, 255, 0);
+    ellipse(200, 200, 25, 25);
+    fill(5, 5, 5);
+    text('WEEL!!!', 280, 176);
+    
+    //we draw rosie
+    stroke(3, 3, 3);
+    fill(252, 252, 252);
+    textSize(14);
+    ellipse(mouseX - 15, mouseY, 7, 7);
+    ellipse(mouseX, mouseY, 26, 26);
+    fill(3, 3, 3);
+    ellipse(mouseX + 5, mouseY - 5, 7, 7);
+    fill(252, 252, 252);
+    ellipse(mouseX + 6, mouseY - 7, 3, 3);
+    //we type Rosie
+    fill(3, 3, 3);
+    var f = createFont("monospace");
+    textFont(f);
+    text('Rosie', mouseX+15, mouseY);
+};
