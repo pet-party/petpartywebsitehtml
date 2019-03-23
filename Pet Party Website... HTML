@@ -122,13 +122,16 @@
                 <td>Bunnies</td>
                 <td>Member</td>
             </tr>
+            <tr>
+                <td>Ellen</td>
+                <td>Pandas</td>
+                <td>Member, no pet
+            </tr>
         </tbody>
     </table>
     <h3 id='updates' class='updates'>Updates</h3>
     <ul class='updates'>
-        <li>Halloween is coming up! Rosie is going to be an ice cream scoop for pics and a  cat in a witch hat for trick or treating!! Marble isn't going to go trick or treating.
-        <img src='https://upload.wikimedia.org/wikipedia/commons/0/0d/Halloween_pumpkin_witch_hat_-_Evan_Swigart.jpg' class='pic'  alt='A pumpkin in a witch hat'>
-        <li>Marble got nutered! He hates his antibiotic medicins! Marble also hated his shot!</li>
+        <li>Nothing interesting happened recently except that Elaine (Rosie's owner) got in the Kellogg fourth grade math superbowl team... Yay??????????????????????</li>
     </ul>
          
         <h3 class='contents' id='other-websites'>Other "Pet Party!!!!" Websites</h3>
